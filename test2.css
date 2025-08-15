@@ -1,0 +1,272 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navsection */
+.navsec{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:green;
+    gap: 30px;
+ list-style: none;
+justify-content: space-between;
+padding: 10px;
+}
+.navlists ul{
+list-style: none;
+display: flex;
+gap: 20px;
+margin-left: 10px;
+margin-right: 10px;
+   
+}
+.btn1{
+    padding: 15px 25px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+/* section 1 */
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    word-spacing: 5px;
+    align-content: space-around;
+    margin: 20px;
+
+}
+.headerdesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-content: center;
+gap: 20px;
+}
+.mypic img{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+
+
+}
+.h1{
+    color: rgb(62, 151, 81);
+    
+}
+.p1{
+    font-style: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.p2{
+font-style: italic;
+font-size: 20px;
+}
+.headerdesc .btn2{
+    align-self: center;
+    border-radius: 30px;
+    background: green;
+    color: white;
+    border: 2px solid green;
+    padding: 10px 20px;
+    
+}
+.span1{
+    color: black;
+}
+.navlogo img{
+    width: 80px;
+    height: 80px;
+border-radius: 50%;
+}
+
+
+/* aboutme section */
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 5px;
+    padding: 20px;
+}
+
+.aboutme{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 2px;
+    gap: 10px;
+flex-direction: column;
+}
+.h2{
+    color: green;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    
+}
+.h2div{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.span2{
+    color: black;
+}
+
+.span3{
+    color: green;
+}
+.span4{
+    color: green;
+}
+.aboutmeimg img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    float: right;
+}
+
+
+.aboutmecont{
+     display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    word-spacing: 5px;
+    align-content: space-around;
+}
+.aboutmesection{
+    
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-content: center;
+gap: 10px;
+}
+
+
+/* projectsection */
+.projets{
+background-color: grey;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.divprojects{
+    display: flex;
+    border-color: black;
+    padding: 10px;
+    gap: 40px;
+    justify-items: center;
+    
+    align-content: space-between;
+    
+    
+}
+
+.h3{
+    color:green;
+    
+}
+.span5{
+    color:black;
+    
+}
+.card1,.card2,.card3{
+    background-color: rgb(39, 38, 38);
+    border-radius: 20px;
+    width: 380px;
+    
+
+}
+
+.card1 img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 10px;
+    height: 250px;
+}
+.card2 img{
+     width: 100%;
+    padding: 10px;
+    
+    border-radius: 10px;
+    height: 250px;
+}
+.card3 img{
+
+     width: 100%;
+    padding: 10px;
+
+    border-radius: 10px;
+    height: 250px;
+
+}
+/* contactme section */
+.contactme{
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    background-color: grey;
+    display: flex;
+    border-color: black;
+    gap: 10px;
+    justify-items: center;
+    align-content: space-between;
+}
+.h5{
+    color: green;
+    text-align: center;
+}
+.span6{
+    color:black;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.myform input{
+    padding:15px 20px;
+    width: 70%;
+    border-radius: 15px;
+    border: none;
+
+}
+/* Projectcont */
+.cardtext{
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.texthead{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.formbutton{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+    
+}
