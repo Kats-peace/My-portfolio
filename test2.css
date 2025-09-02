@@ -168,10 +168,9 @@ align-items: center;
     border-color: black;
     padding: 10px;
     gap: 40px;
-    justify-items: center;
-    
+    justify-content: center;
     align-content: space-between;
-    
+    flex-wrap: wrap;
     
 }
 
@@ -269,4 +268,22 @@ align-items: center;
     border-radius: 15px;
     border: none;
     
+}
+@media(max-width:767px){
+    .navsec .navlists {
+display: none;
+    }
+.navbars{
+font-size: 32px;
+color: white;
+}
+.btn1{
+display: none;
+}
+.sec1{
+    flex-wrap: wrap;
+}
+.aboutmecont{
+    flex-wrap: wrap;
+}
 }
