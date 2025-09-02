@@ -270,6 +270,11 @@ align-items: center;
     
 }
 @media(max-width:767px){
+    img{
+        width: 100%;
+    }
+        
+    
     .navsec .navlists {
 display: none;
     }
